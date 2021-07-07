@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <aside class="hidden w-full  xl:flex  border-r border-black  text-red-400 items-center  justify-center-center  ">
+        <aside class="hidden w-full h-screen  xl:flex  border-r border-black  text-red-400 items-center  justify-center-center  ">
             <div class="content fixed w-1/5   ">
                 <ul class="flex flex-col -mt-20 w-full">
                     <li class="mr-4 mb-8  ">
@@ -109,7 +109,7 @@
             
             </header>
 
-            <div class="content-body">
+            <div class="content-body pt-14">
                 <header class="flex items-center justify-center border text-white text-bolder text-xl h-14 bg-blue-600 border-black">
                     <h1>Sites</h1>
                 </header>
@@ -182,105 +182,120 @@
                 </div>
                 <ul>
                  
-                    <li class="site px-3 py-1.5 lg:py-6 grid grid-cols-2 pr-8 border-b border-t border-gray-600">
-                        <div class="left col-span-1   grid grid-cols-5 md:grid-cols-6 items-center justify-center">
-                            <div class=" site-photo h-12 w-12 sm:h-14 sm:w-14  md:h-24 md:w-24 circle-div border col-span-2 md:col-span-2 flex items-center justify-center border-black">
-                                <!-- <img src="" alt=""> -->
-                                <p class="text-xs">Image</p>
+                    <li class="site px-3 py-1.5 lg:py-6 pr-8 border-b border-t border-gray-600">
+                       <a class=" grid grid-cols-2" href="./site-detail.html">
+                            <div class="left col-span-1   grid grid-cols-5 md:grid-cols-6 items-center justify-center">
+                                <div
+                                    class=" site-photo h-12 w-12 sm:h-14 sm:w-14  md:h-24 md:w-24 circle-div border col-span-2 md:col-span-2 flex items-center justify-center border-black">
+                                    <!-- <img src="" alt=""> -->
+                                    <p class="text-xs">Image</p>
+                                </div>
+                                <div class="site-detail col-span-3 md:col-span-2">
+                                    <p class="text-sm sm:text-base md:text-xl">
+                                        <span class="font-medium block">Site Name</span>
+                                        <span class="block">Site Address</span>
+                                        <span class="block">Main Contact</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="site-detail col-span-3 md:col-span-2">
-                                <p class="text-sm sm:text-base md:text-xl">
-                                    <span class="font-medium block">Site Name</span>
-                                    <span class="block">Site Address</span>
-                                    <span class="block">Main Contact</span>
-                                </p>
+                            <div class="right col-span-1 flex items-center justify-end">
+                                <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                </svg>
                             </div>
-                        </div>
-                        <div class="right col-span-1 flex items-center justify-end">
-                            <svg  class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                            </svg>
-                        </div>
+                        </a>
                     </li>
-                    <li class="site px-3 py-1.5 lg:py-6 grid grid-cols-2 pr-8 border-b border-t border-gray-600">
-                        <div class="left col-span-1   grid grid-cols-5 md:grid-cols-6 items-center justify-center">
-                            <div class=" site-photo h-12 w-12 sm:h-14 sm:w-14  md:h-24 md:w-24 circle-div border col-span-2 md:col-span-2 flex items-center justify-center border-black">
-                                <!-- <img src="" alt=""> -->
-                                <p class="text-xs">Image</p>
+                    <li class="site px-3 py-1.5 lg:py-6 pr-8 border-b border-t border-gray-600">
+                       <a class=" grid grid-cols-2" href="./site-detail.html">
+                            <div class="left col-span-1   grid grid-cols-5 md:grid-cols-6 items-center justify-center">
+                                <div
+                                    class=" site-photo h-12 w-12 sm:h-14 sm:w-14  md:h-24 md:w-24 circle-div border col-span-2 md:col-span-2 flex items-center justify-center border-black">
+                                    <!-- <img src="" alt=""> -->
+                                    <p class="text-xs">Image</p>
+                                </div>
+                                <div class="site-detail col-span-3 md:col-span-2">
+                                    <p class="text-sm sm:text-base md:text-xl">
+                                        <span class="font-medium block">Site Name</span>
+                                        <span class="block">Site Address</span>
+                                        <span class="block">Main Contact</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="site-detail col-span-3 md:col-span-2">
-                                <p class="text-sm sm:text-base md:text-xl">
-                                    <span class="font-medium block">Site Name</span>
-                                    <span class="block">Site Address</span>
-                                    <span class="block">Main Contact</span>
-                                </p>
+                            <div class="right col-span-1 flex items-center justify-end">
+                                <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                </svg>
                             </div>
-                        </div>
-                        <div class="right col-span-1 flex items-center justify-end">
-                            <svg  class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                            </svg>
-                        </div>
+                        </a>
                     </li>
-                    <li class="site px-3 py-1.5 lg:py-6 grid grid-cols-2 pr-8 border-b border-t border-gray-600">
-                        <div class="left col-span-1   grid grid-cols-5 md:grid-cols-6 items-center justify-center">
-                            <div class=" site-photo h-12 w-12 sm:h-14 sm:w-14  md:h-24 md:w-24 circle-div border col-span-2 md:col-span-2 flex items-center justify-center border-black">
-                                <!-- <img src="" alt=""> -->
-                                <p class="text-xs">Image</p>
+                    <li class="site px-3 py-1.5 lg:py-6 pr-8 border-b border-t border-gray-600">
+                       <a class=" grid grid-cols-2" href="./site-detail.html">
+                            <div class="left col-span-1   grid grid-cols-5 md:grid-cols-6 items-center justify-center">
+                                <div
+                                    class=" site-photo h-12 w-12 sm:h-14 sm:w-14  md:h-24 md:w-24 circle-div border col-span-2 md:col-span-2 flex items-center justify-center border-black">
+                                    <!-- <img src="" alt=""> -->
+                                    <p class="text-xs">Image</p>
+                                </div>
+                                <div class="site-detail col-span-3 md:col-span-2">
+                                    <p class="text-sm sm:text-base md:text-xl">
+                                        <span class="font-medium block">Site Name</span>
+                                        <span class="block">Site Address</span>
+                                        <span class="block">Main Contact</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="site-detail col-span-3 md:col-span-2">
-                                <p class="text-sm sm:text-base md:text-xl">
-                                    <span class="font-medium block">Site Name</span>
-                                    <span class="block">Site Address</span>
-                                    <span class="block">Main Contact</span>
-                                </p>
+                            <div class="right col-span-1 flex items-center justify-end">
+                                <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                </svg>
                             </div>
-                        </div>
-                        <div class="right col-span-1 flex items-center justify-end">
-                            <svg  class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                            </svg>
-                        </div>
+                        </a>
                     </li>
-                    <li class="site px-3 py-1.5 lg:py-6 grid grid-cols-2 pr-8 border-b border-t border-gray-600">
-                        <div class="left col-span-1   grid grid-cols-5 md:grid-cols-6 items-center justify-center">
-                            <div class=" site-photo h-12 w-12 sm:h-14 sm:w-14  md:h-24 md:w-24 circle-div border col-span-2 md:col-span-2 flex items-center justify-center border-black">
-                                <!-- <img src="" alt=""> -->
-                                <p class="text-xs">Image</p>
+                    <li class="site px-3 py-1.5 lg:py-6 pr-8 border-b border-t border-gray-600">
+                       <a class=" grid grid-cols-2" href="./site-detail.html">
+                            <div class="left col-span-1   grid grid-cols-5 md:grid-cols-6 items-center justify-center">
+                                <div
+                                    class=" site-photo h-12 w-12 sm:h-14 sm:w-14  md:h-24 md:w-24 circle-div border col-span-2 md:col-span-2 flex items-center justify-center border-black">
+                                    <!-- <img src="" alt=""> -->
+                                    <p class="text-xs">Image</p>
+                                </div>
+                                <div class="site-detail col-span-3 md:col-span-2">
+                                    <p class="text-sm sm:text-base md:text-xl">
+                                        <span class="font-medium block">Site Name</span>
+                                        <span class="block">Site Address</span>
+                                        <span class="block">Main Contact</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="site-detail col-span-3 md:col-span-2">
-                                <p class="text-sm sm:text-base md:text-xl">
-                                    <span class="font-medium block">Site Name</span>
-                                    <span class="block">Site Address</span>
-                                    <span class="block">Main Contact</span>
-                                </p>
+                            <div class="right col-span-1 flex items-center justify-end">
+                                <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                </svg>
                             </div>
-                        </div>
-                        <div class="right col-span-1 flex items-center justify-end">
-                            <svg  class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                            </svg>
-                        </div>
+                        </a>
                     </li>
-                    <li class="site px-3 py-1.5 lg:py-6 grid grid-cols-2 pr-8 border-b border-t border-gray-600">
-                        <div class="left col-span-1   grid grid-cols-5 md:grid-cols-6 items-center justify-center">
-                            <div class=" site-photo h-12 w-12 sm:h-14 sm:w-14  md:h-24 md:w-24 circle-div border col-span-2 md:col-span-2 flex items-center justify-center border-black">
-                                <!-- <img src="" alt=""> -->
-                                <p class="text-xs">Image</p>
+                    <li class="site px-3 py-1.5 lg:py-6 pr-8 border-b border-t border-gray-600">
+                       <a class=" grid grid-cols-2" href="./site-detail.html">
+                            <div class="left col-span-1   grid grid-cols-5 md:grid-cols-6 items-center justify-center">
+                                <div
+                                    class=" site-photo h-12 w-12 sm:h-14 sm:w-14  md:h-24 md:w-24 circle-div border col-span-2 md:col-span-2 flex items-center justify-center border-black">
+                                    <!-- <img src="" alt=""> -->
+                                    <p class="text-xs">Image</p>
+                                </div>
+                                <div class="site-detail col-span-3 md:col-span-2">
+                                    <p class="text-sm sm:text-base md:text-xl">
+                                        <span class="font-medium block">Site Name</span>
+                                        <span class="block">Site Address</span>
+                                        <span class="block">Main Contact</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="site-detail col-span-3 md:col-span-2">
-                                <p class="text-sm sm:text-base md:text-xl">
-                                    <span class="font-medium block">Site Name</span>
-                                    <span class="block">Site Address</span>
-                                    <span class="block">Main Contact</span>
-                                </p>
+                            <div class="right col-span-1 flex items-center justify-end">
+                                <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                </svg>
                             </div>
-                        </div>
-                        <div class="right col-span-1 flex items-center justify-end">
-                            <svg  class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                            </svg>
-                        </div>
+                        </a>
                     </li>
                   
             
