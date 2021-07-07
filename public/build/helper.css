@@ -1,0 +1,17 @@
+/* to make profle photo a perfect */
+
+.circle-div {
+  border-radius: 50%;
+  background: #fff;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 19% 81%;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
